@@ -1,0 +1,21 @@
+{
+  "name": "Python 3",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "DavidAnson.vscode-markdownlint",
+        "ms-azuretools.vscode-containers",
+        "ms-vscode-remote.remote-containers",
+        "GitHub.copilot-chat",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "GoogleCloudTools.cloudcode",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": "bash -lc '.devcontainer/postCreate.sh ${containerWorkspaceFolder}'"
+}
