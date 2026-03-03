@@ -5,13 +5,13 @@ A project template and examples to get you started with the
 
 With the ADK you can develop agents using:
 
-- YAML-based configuration (i.e [Agent Builder](https://google.github.io/adk-docs/agents/config/))
+- YAML-based configuration (i.e [Agent Config](https://google.github.io/adk-docs/agents/config/))
 - [Python](https://google.github.io/adk-docs/get-started/java/)
 - [TypeScript](https://google.github.io/adk-docs/get-started/typescript/)
 - [Go](https://google.github.io/adk-docs/get-started/go/)
 - [Java](https://google.github.io/adk-docs/get-started/java/)
 
-In the project Agent Builder and Python are used.
+In the project Agent Config and Python are used.
 
 A [devcontainer](https://containers.dev/)
 definition will install the necessary dependencies. Refer to the
