@@ -1,7 +1,17 @@
 # adk-example
 
-A Python example agent using the
+A project template and examples to get you started with the
 [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/).
+
+With the ADK you can develop agents using:
+
+- YAML-based configuration (i.e [Agent Config](https://google.github.io/adk-docs/agents/config/))
+- [Python](https://google.github.io/adk-docs/get-started/java/)
+- [TypeScript](https://google.github.io/adk-docs/get-started/typescript/)
+- [Go](https://google.github.io/adk-docs/get-started/go/)
+- [Java](https://google.github.io/adk-docs/get-started/java/)
+
+In the project Agent Config and Python are used.
 
 A [devcontainer](https://containers.dev/)
 definition will install the necessary dependencies. Refer to the
@@ -33,9 +43,15 @@ GOOGLE_API_KEY=AIzaSyC...
 You're now ready to start the ADK Web Server
 
 ```bash
-source .
 cd src
 adk web
 ```
 
-For local testing, access at `http://127.0.0.1:8000`.
+For local testing and development, access `http://127.0.0.1:8000`.
+Use the web interface to check the examples, you can make changes and iterate
+(either using Agent builder or in the `.py` source).
+
+Other useful commands are:
+
+- `adk run`, terminal-based interaction
+- `adk api_server`, deploy as an API Service

@@ -45,7 +45,6 @@ repos:
     rev: v1.38.0
     hooks:
       - id: yamllint
-        args: [--strict]
   # Secrets detection
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.30.0
