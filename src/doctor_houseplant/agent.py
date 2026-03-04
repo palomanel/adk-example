@@ -1,3 +1,10 @@
+"""
+Doctor Houseplant Agent
+
+This module defines a Gemini-powered AI agent that identifies plants and
+provides personalized care recommendations.
+"""
+
 from importlib import resources as impresources
 from google.adk.agents import LlmAgent
 from google.genai import types
@@ -22,7 +29,8 @@ content_config = types.GenerateContentConfig(
 doctor_houseplant = LlmAgent(
     model="gemini-2.5-flash",
     name="doctor_houseplant",  # Used by ADK internally
-    description="Identifies plants and helps taking care of them.",
+    description="identifies plants and provides personalized care\
+        recommendations",
     instruction=instruction,
     generate_content_config=content_config,
 )
