@@ -40,7 +40,7 @@ doctor_houseplant = LlmAgent(
         recommendations",
     instruction=instruction,
     generate_content_config=content_config,
-    tools={get_datetime},
+    tools=[get_datetime],
 )
 
 # Variable name that ADK tools look for (must be root_agent)
