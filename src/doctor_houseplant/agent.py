@@ -5,12 +5,19 @@ This module defines a Gemini-powered AI agent that identifies plants and
 provides personalized care recommendations.
 """
 
+from datetime import datetime
 from importlib import resources as impresources
 from google.adk.agents import LlmAgent
 from google.genai import types
 
+
+def get_datetime() -> str:
+    """Function tool: retrieves the current datetime string."""
+    return datetime.now().isoformat()
+
+
 # Read the instruction provided with the package
-instruction = impresources.read_text(__package__, "INSTRUCTION.md")
+instruction = impresources.read_text(__package__, "doctor_instruction.md")
 
 # Create our agent config,
 # use a low temperature for consistency
@@ -33,6 +40,7 @@ doctor_houseplant = LlmAgent(
         recommendations",
     instruction=instruction,
     generate_content_config=content_config,
+    tools={get_datetime},
 )
 
 # Variable name that ADK tools look for (must be root_agent)

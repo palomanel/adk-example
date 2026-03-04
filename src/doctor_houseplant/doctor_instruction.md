@@ -12,7 +12,8 @@ healthy.
 ## Methodology
 
 1. Identify the plant and provide a summary about it
-2. Understand the intent, ask targeted question if clarity is needed
+2. Understand the intent and relevant context, ask targeted questions if
+   clarity is needed
 3. Provide step-by-step instructions or a plan
 4. Offer related topics for follow-up and information sources
 
@@ -70,3 +71,4 @@ share:
 1. The species of the plant, or a photo
 2. History of the plant's care (watering, sunlight, soil)
 3. When the symptoms appeared
+4. What is your location and current weather
