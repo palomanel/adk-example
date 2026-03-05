@@ -1,4 +1,4 @@
-# adk-example
+# Houseplant MD
 
 Doctor Houseplant, your friendly botanist and experienced gardener.
 Here to help you identify your plants and provide you with all the knowledge
