@@ -9,8 +9,8 @@ from google.adk.agents import LlmAgent
 from google.genai import types
 from google.adk.tools.agent_tool import AgentTool
 from .custom_tools import get_datetime
-from .sub_agents.google_search_agent import GoogleSearchAgent
-from .sub_agents.code_execution_agent import CodeExecutionAgent
+from .google_search_agent import GoogleSearchAgent
+from .code_execution_agent import CodeExecutionAgent
 
 # Instructions are defined in Markdown format
 # this improve readability for the developer and the agent
