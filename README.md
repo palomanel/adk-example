@@ -1,24 +1,18 @@
 # adk-example
 
-A project template and examples to get you started with the
+Doctor Houseplant, your friendly botanist and experienced gardener.
+Here to help you identify your plants and provide you with all the knowledge
+you need to nurture and maintain them in tip-top health.
+
+This agent was developed using the
 [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/).
 
-With the ADK you can develop agents using:
-
-- YAML-based configuration (i.e [Agent Config](https://google.github.io/adk-docs/agents/config/))
-- [Python](https://google.github.io/adk-docs/get-started/java/)
-- [TypeScript](https://google.github.io/adk-docs/get-started/typescript/)
-- [Go](https://google.github.io/adk-docs/get-started/go/)
-- [Java](https://google.github.io/adk-docs/get-started/java/)
-
-In the project Agent Config and Python are used.
+## Usage
 
 A [devcontainer](https://containers.dev/)
 definition will install the necessary dependencies. Refer to the
 [Build Your First Agent with Agent Development Kit (ADK)](https://www.skills.google/paths/3545/course_templates/1563)
 course for step by step configuration details.
-
-## Usage
 
 This example uses Gemini API via Google AI Studio (recommended for personal
 learning).
@@ -55,3 +49,18 @@ Other useful commands are:
 
 - `adk run`, terminal-based interaction
 - `adk api_server`, deploy as an API Service
+
+## References
+
+Online Documentation
+
+- [Agent Development Kit (ADK)](https://google.github.io/adk-docs/)
+- [Google Search Tool for ADK](https://google.github.io/adk-docs/tools/gemini-api/google-search/)
+- [Structuring Data with ADK](https://google.github.io/adk-docs/agents/llm-agents/#structuring-data-input_schema-output_schema-output_key)
+- [Sequential Agents](https://google.github.io/adk-docs/agents/workflow-agents/sequential-agents/)
+
+Courses, Labs and Tutorials
+
+- [Understand Google Cloud Agents](https://www.skills.google/course_templates/1504)
+- [Build your first agent with Agent Development Kit (ADK)](https://www.skills.google/course_templates/1563)
+- [Build intelligent agents with the Agent Development Kit (ADK)](https://www.skills.google/course_templates/1382)
