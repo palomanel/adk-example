@@ -58,6 +58,7 @@ Online Documentation
 - [Google Search Tool for ADK](https://google.github.io/adk-docs/tools/gemini-api/google-search/)
 - [Structuring Data with ADK](https://google.github.io/adk-docs/agents/llm-agents/#structuring-data-input_schema-output_schema-output_key)
 - [Sequential Agents](https://google.github.io/adk-docs/agents/workflow-agents/sequential-agents/)
+- [Developer's Guide to Building ADK Agents with Skills](https://developers.googleblog.com/developers-guide-to-building-adk-agents-with-skills/)
 
 Courses, Labs and Tutorials
 

@@ -26,19 +26,19 @@ repos:
       - id: trailing-whitespace
   # JavaScript/TypeScript formatting
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.8.1
+    rev: v3.8.3
     hooks:
       - id: prettier
         stages: [pre-commit]
   # Python formatting and linting
   - repo: https://github.com/psf/black
-    rev: 26.1.0
+    rev: 26.3.1
     hooks:
       - id: black
         language_version: python3
   # IaC static analysis
   - repo: https://github.com/bridgecrewio/checkov
-    rev: 3.2.507
+    rev: 3.2.522
     hooks:
       - id: checkov
   - repo: https://github.com/adrienverge/yamllint
@@ -52,12 +52,12 @@ repos:
       - id: gitleaks
   # Markdown linting
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.21.0
+    rev: v0.22.0
     hooks:
       - id: markdownlint-cli2
   # Conventional commit validation
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.13.9
+    rev: v4.13.10
     hooks:
       - id: commitizen
         stages: [commit-msg]
